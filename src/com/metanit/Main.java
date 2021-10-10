@@ -4,6 +4,7 @@ package com.metanit;
 public class Main {
 
   public static void main(String[] args) { 
-      System.out.println("Hello Metanit package");
+      final String javaStr = "Java";
+      System.out.println("Hello " + javaStr);
   };
 }
