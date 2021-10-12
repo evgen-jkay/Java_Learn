@@ -5,10 +5,10 @@ public class Salary {
     private final double priceHours = 62.5;
     private final double priceTon = 75;
     
-    private final double prepayment = 100;
+    private final double prepayment;
     
-    private final double[] workingHours = {6, 7, 4};
-    private final double[] manufacturedTon = {20.2, 18.5, 21.8};
+    private final double[] workingHours = {};
+    private final double[] manufacturedTon = {};
     
     private double allWorkingHours;
     private double allManufturedTon;
