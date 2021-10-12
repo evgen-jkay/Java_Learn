@@ -1,4 +1,4 @@
-package com.salary;
+package com.myApp;
 
 public class Salary {
     public static void mySalary() {
