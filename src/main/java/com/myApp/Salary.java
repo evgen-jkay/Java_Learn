@@ -1,6 +1,5 @@
 package com.myApp;
 
-
 public class Salary {
 
     private final double priceHours = 62.5;
