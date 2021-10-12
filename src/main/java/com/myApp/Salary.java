@@ -1,58 +1,71 @@
 package com.myApp;
 
+
 public class Salary {
 
-    private final double priceHours;
-    private final double priceTon;
-	
-    public Salary(double priceHours, double priceTon) { 
-        this.priceHours = priceHours;
-        this.priceTon = priceTon;
-    }
-	
-    public Salary() {
-        this.priceHours = 62.5;
-        this.priceTon = 75;
-    }
+    private final double priceHours = 62.5;
+    private final double priceTon = 75;
     
-    public double getPriceHours() {
+    private final double prepayment = 100;
+    
+    private final double[] workingHours = {6, 7, 4};
+    private final double[] manufacturedTon = {20.2, 18.5, 21.8};
+    
+    private double allWorkingHours;
+    private double allManufturedTon;
+        
+    protected double getPriceHours() {
         return priceHours;
     }
     
-    public double getPriceTon() {
+    protected double getPriceTon() {
         return priceTon;
     }
-
-    public void mySalary() {
-   
-    double[] workingHours = {};
-    double allWorkingHours = 0;
     
-    double[] manufacturedTon = {};
-    double allManufturedTon = 0;
-   
-    double prepayment = 0;
-   
-    for(int i = 0; i < workingHours.length; i++) {
-        allWorkingHours += workingHours[i];
+    protected double getPrepayment() {
+        return prepayment;
     }
-   
-    for(int i = 0; i < manufacturedTon.length; i++) {
-        allManufturedTon += manufacturedTon[i];
+    
+    protected double getAllWorkingHours() {
+        for(int i = 0; i < workingHours.length; i++) {
+            allWorkingHours += workingHours[i];
+        }
+        return allWorkingHours;
     }
+    
+    protected double salaryForHours() {
+        double salaryForHours = allWorkingHours * priceHours;
+        return salaryForHours;
+    }
+    
+    protected double getAllManufturedTon() {
+        for(int i = 0; i < manufacturedTon.length; i++) {
+            allManufturedTon += manufacturedTon[i];
+   	}
+   	return allManufturedTon;
+    }
+    
+    protected double salaryForTon() {
+        double salaryForTon = allManufturedTon * priceTon;
+        return salaryForTon;
+    }
+    
+    protected double allSalary() {
+        double allSalary = salaryForHours() + salaryForTon();
+        return allSalary;
+    }
+    
+    public void mySalaryInfo() {
    
-    double salaryForHours = allWorkingHours * priceHours;
-    double salaryForTon = allManufturedTon * priceTon;
-    double allSalary = salaryForHours + salaryForTon;
-   
-    System.out.println("Всего отработанно часов: " + allWorkingHours + "ч.");
-    System.out.println("Заработано за робочие часы: " + salaryForHours + " грн.");
-    System.out.println("-----");
-    System.out.println("Всего сделано тонн: " + allManufturedTon + "т.");
-    System.out.println("Заработано за тоннаж: " + salaryForTon + " грн.");
-    System.out.println("----------");
-    System.out.println("Аванс: " + prepayment + " грн.");
-    System.out.println("Зарплата: " + allSalary + " грн.");
-    System.out.println("Зарплата с вычетом аванса: " + (allSalary - prepayment) + " грн.");
-  };  
-};
+    	System.out.println("Всего отработанно часов: " + getAllWorkingHours() + "ч.");
+    	System.out.println("Заработано за робочие часы: " + salaryForHours() + " грн.");
+    	System.out.println("-----");
+    	System.out.println("Всего сделано тонн: " + getAllManufturedTon() + "т.");
+    	System.out.println("Заработано за тоннаж: " + salaryForTon() + " грн.");
+    	System.out.println("----------");
+    	System.out.println("Аванс: " + getPrepayment() + " грн.");
+    	System.out.println("Зарплата: " + allSalary() + " грн.");
+    	System.out.println("Зарплата с вычетом аванса: " + (allSalary() - getPrepayment()) + " грн.");
+  }
+}
+
