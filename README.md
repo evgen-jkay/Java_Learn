@@ -1,4 +1,4 @@
-# Java SE
+# Java Learn
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/evgen-jkay/Java_SE_Learn)
 ![GitHub last commit](https://img.shields.io/github/last-commit/evgen-jkay/Java_SE_Learn)
@@ -6,3 +6,5 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/evgen-jkay/Java_SE_Learn)
 
 ***
+
+#### Сдесь буду собирать учебный процесс по Java
