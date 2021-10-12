@@ -1,7 +1,7 @@
 package com.main;
 
-import com.myApp.Salary;
-import com.book.Book;
+import com.myApp.*;
+import com.book.*;
 
 
 public class Main {
