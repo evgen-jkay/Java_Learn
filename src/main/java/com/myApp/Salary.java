@@ -1,9 +1,29 @@
 package com.myApp;
 
 public class Salary {
-    public static void mySalary() {
-    double priceHours = 62.5;
-    double priceTon = 75;
+
+    private final double priceHours;
+    private final double priceTon;
+	
+    public Salary(double priceHours, double priceTon) { 
+        this.priceHours = priceHours;
+        this.priceTon = priceTon;
+    }
+	
+    public Salary() {
+        this.priceHours = 62.5;
+        this.priceTon = 75;
+    }
+    
+    public double getPriceHours() {
+        return priceHours;
+    }
+    
+    public double getPriceTon() {
+        return priceTon;
+    }
+
+    public void mySalary() {
    
     double[] workingHours = {};
     double allWorkingHours = 0;
