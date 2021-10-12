@@ -1,6 +1,5 @@
 package com.salary;
 
-
 public class Salary {
     public static void mySalary() {
     double priceHours = 62.5;
