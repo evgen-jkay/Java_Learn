@@ -3,7 +3,7 @@ package com.myApp;
 /** 
  * @autor Евгений aka Jkay 
  * @version 2.2
-*/
+ */
 public class Salary {
 
     private final double priceHours = 0;
