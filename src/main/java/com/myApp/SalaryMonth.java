@@ -2,7 +2,7 @@ package com.myApp;
 
 /** 
  * @autor Евгений aka Jkay 
- * @version 2.2
+ * @version 3.0
  */
 public class SalaryMonth {
 
