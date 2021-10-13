@@ -4,7 +4,7 @@ package com.myApp;
  * @autor Евгений aka Jkay 
  * @version 2.2
  */
-public class Salary {
+public class SalaryMonth {
 
     private final double priceHours = 0;
     private final double priceTon = 0;
