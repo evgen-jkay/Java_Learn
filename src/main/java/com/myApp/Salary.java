@@ -2,8 +2,8 @@ package com.myApp;
 
 public class Salary {
 
-    private final double priceHours = 62.5;
-    private final double priceTon = 75;
+    private final double priceHours;
+    private final double priceTon;
     
     private final double prepayment;
     
