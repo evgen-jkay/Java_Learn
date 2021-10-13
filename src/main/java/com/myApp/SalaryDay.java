@@ -1,9 +1,5 @@
 package com.myApp;
 
-/**
- * @version 4.0
- * @autor Евгений aka Jkay
- */
 public class SalaryDay implements Salary {
 
     private final double priceHours;

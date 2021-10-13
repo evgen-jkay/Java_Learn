@@ -1,9 +1,5 @@
 package com.myApp;
 
-/**
- * @version 4.0
- * @autor Евгений aka Jkay
- */
 public class SalaryMonth implements Salary {
 
     private final double priceHours;
@@ -11,7 +7,7 @@ public class SalaryMonth implements Salary {
     private final double prepayment;
 
     private final double[] workingHours = {6, 7, 4, 9};
-    private final double[] manufacturedTons = {20.2, 18.5, 21.8};
+    private final double[] manufacturedTons = {20.2, 18.5, 21.8, 12.8};
 
     private double allWorkingHours;
     private double allManufacturedTons;
@@ -42,7 +38,7 @@ public class SalaryMonth implements Salary {
     }
 
     protected double salaryForHours() {
-        return getAllWorkingHours() * getPriceHours();
+        return allWorkingHours * getPriceHours();
     }
 
     protected double getAllManufacturedTons() {
@@ -53,7 +49,7 @@ public class SalaryMonth implements Salary {
     }
 
     protected double salaryForTon() {
-        return getAllManufacturedTons() * getPriceTon();
+        return allManufacturedTons * getPriceTon();
     }
 
     protected double allSalary() {
