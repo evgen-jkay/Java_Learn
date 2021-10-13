@@ -4,7 +4,7 @@ package com.myApp;
  * @version 4.0
  * @autor Евгений aka Jkay
  */
-public class SalaryDay {
+public class SalaryDay implements Salary {
 
     private final double priceHours;
     private final double priceTon;
@@ -57,6 +57,7 @@ public class SalaryDay {
         return salaryForHours() + salaryForTon();
     }
 
+    @Override
     public void salaryInfo() {
         System.out.println("Заработано за робочие часы: " + salaryForHours() + " грн.");
         System.out.println("-----");
