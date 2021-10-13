@@ -1,12 +1,14 @@
 package com.main;
 
 import com.myApp.*;
-import com.book.*;
 
 
 public class Main {
     public static void main(String[] args) {
-        Salary salary = new Salary();
-        salary.mySalaryInfo();
+        SalaryDay salaryDay = new SalaryDay(0, 0);
+        salaryDay.salaryInfo();
+
+        SalaryMonth salaryMonth = new SalaryMonth();
+        salaryMonth.salaryInfo();
     }
 }
