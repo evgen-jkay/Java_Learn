@@ -1,5 +1,9 @@
 package com.myApp;
 
+/** 
+ * @autor Евгений aka Jkay 
+ * @version 3.0
+ */
 public class SalaryDay {
 
     private final double priceHours = 62.5;
