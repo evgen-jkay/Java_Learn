@@ -1,57 +1,67 @@
 package com.myApp;
 
-/** 
- * @autor Евгений aka Jkay 
- * @version 3.0
+/**
+ * @version 4.0
+ * @autor Евгений aka Jkay
  */
 public class SalaryDay {
 
-    private final double priceHours = 62.5;
-    private final double priceTon = 75;
-    private double workingHours;
-    private double manufacturedTon;
+    private final double priceHours;
+    private final double priceTon;
+    private final double workingHours;
+    private final double manufacturedTons;
 
-    public SalaryDay(double workingHours, double manufacturedTon) {
+    /**
+     * @param workingHours     - рабочие часы
+     * @param manufacturedTons - изготовленно тоннажа
+     */
+    public SalaryDay(double workingHours, double manufacturedTons) {
+        this.priceHours = 62.5;
+        this.priceTon = 75;
         this.workingHours = workingHours;
-        this.manufacturedTon = manufacturedTon;
+        this.manufacturedTons = manufacturedTons;
+    }
+
+    public SalaryDay() {
+        this.priceHours = 62.5;
+        this.priceTon = 75;
+        this.workingHours = 0;
+        this.manufacturedTons = 0;
     }
 
     protected double getPriceHours() {
         return priceHours;
     }
-    
+
     protected double getPriceTon() {
         return priceTon;
     }
-    
+
     protected double getWorkingHours() {
-      return workingHours;
+        return workingHours;
     }
-    
-    protected double getManufacturedTon() {
-      return manufacturedTon;
+
+    protected double getManufacturedTons() {
+        return manufacturedTons;
     }
-    
+
     protected double salaryForHours() {
-        double salaryForHours = workingHours * priceHours;
-        return salaryForHours;
+        return getWorkingHours() * getPriceHours();
     }
-    
+
     protected double salaryForTon() {
-        double salaryForTon = manufacturedTon * priceTon;
-        return salaryForTon;
+        return getManufacturedTons() * getPriceTon();
     }
-    
+
     protected double allSalary() {
-        double allSalary = salaryForHours() + salaryForTon();
-        return allSalary;
+        return salaryForHours() + salaryForTon();
     }
-    
+
     public void salaryInfo() {
-    	System.out.println("Заработано за робочие часы: " + salaryForHours() + " грн.");
-    	System.out.println("-----");
-    	System.out.println("Заработано за тоннаж: " + salaryForTon() + " грн.");
-    	System.out.println("----------");
-    	System.out.println("Заработанно: " + allSalary() + " грн.");
-  }
+        System.out.println("Заработано за робочие часы: " + salaryForHours() + " грн.");
+        System.out.println("-----");
+        System.out.println("Заработано за тоннаж: " + salaryForTon() + " грн.");
+        System.out.println("----------");
+        System.out.println("Заработанно: " + allSalary() + " грн.");
+    }
 }
