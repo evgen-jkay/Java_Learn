@@ -2,10 +2,10 @@ package com.myApp;
 
 public class Salary {
 
-    private final double priceHours;
-    private final double priceTon;
+    private final double priceHours = 0;
+    private final double priceTon = 0;
     
-    private final double prepayment;
+    private final double prepayment = 0;
     
     private final double[] workingHours = {};
     private final double[] manufacturedTon = {};
