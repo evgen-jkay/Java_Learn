@@ -58,7 +58,7 @@ public class SalaryMonth {
         return allSalary;
     }
     
-    public void SalaryInfo() {
+    public void salaryInfo() {
    
     	System.out.println("Всего отработанно часов: " + getAllWorkingHours() + "ч.");
     	System.out.println("Заработано за робочие часы: " + salaryForHours() + " грн.");
