@@ -17,12 +17,12 @@ private final double[] manufacturedTon = {};
 > `manufacturedTon` - количество тоннажа.
 3. Ввести оплату:
 ```java
-private final double priceHours = 62.5;
-private final double priceTon = 75;
+private final double priceHours = 0;
+private final double priceTon = 0;
 ```
 > `priceHours` - оплата за час.
 > `priceTon` - оплата за тонну.
 4. Если был получен аванс, то нужно присвоить значение переменной:
 ```java
-private final double prepayment;
+private final double prepayment = 0;
 ```
