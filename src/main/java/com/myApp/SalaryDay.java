@@ -43,7 +43,7 @@ public class SalaryDay {
         return allSalary;
     }
     
-    public void mySalaryInfo() {
+    public void SalaryInfo() {
     	System.out.println("Заработано за робочие часы: " + salaryForHours() + " грн.");
     	System.out.println("-----");
     	System.out.println("Заработано за тоннаж: " + salaryForTon() + " грн.");
