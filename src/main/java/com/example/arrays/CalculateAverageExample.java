@@ -15,14 +15,14 @@ public class CalculateAverageExample {
          * Вариант 2:
          *
          * for (int i = 0; i < numbers.length; i++) {
-         *    sum2 += numbers[i];
+         *    sum += numbers[i];
          * }
          */
 
         /*
          * Вариант 3:
          *
-         * for (int number : numbers) sum3 += number;
+         * for (int number : numbers) sum += number;
          */
 
         System.out.println(sum);
