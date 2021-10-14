@@ -2,6 +2,7 @@ package com.example;
 
 import java.util.Scanner;
 
+
 public class ReverseNumberWhile {
     public static void main(String[] args) {
         int num = 0, tempNum;
@@ -14,8 +15,7 @@ public class ReverseNumberWhile {
         // Entered input would be stored in number num
         tempNum = num = in.nextInt();
         // While Loop: find out the reverse number
-        while (num != 0)
-        {
+        while (num != 0) {
             reverseNum *= 10;
             reverseNum += num % 10;
             num /= 10;

@@ -2,6 +2,7 @@ package com.example;
 
 import java.util.Random;
 
+
 public class GenerateRandomNum {
     public static void main(String[] args) {
         int counter;

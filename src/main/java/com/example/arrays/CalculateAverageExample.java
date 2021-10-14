@@ -2,7 +2,7 @@ package com.example.arrays;
 
 public class CalculateAverageExample {
     public static void main(String[] args) {
-        int[] numbers = new int[] {22, 20, 41, 55, 16, 60, 100};
+        int[] numbers = new int[]{22, 20, 41, 55, 16, 60, 100};
 
         int sum = 0;
 

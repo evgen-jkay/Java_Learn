@@ -2,6 +2,7 @@ package com.example.arrays;
 
 import java.util.Arrays;
 
+
 public class MergeTwoArrays {
     public static void main(String[] args) {
         int[] arrays1 = {10, 20, 30};
@@ -12,7 +13,7 @@ public class MergeTwoArrays {
         int[] merge = new int[arrays1.length + arrays2.length];
 
         // Вариант 1:
-        for (int i = 0; i < arrays1.length ; i++) {
+        for (int i = 0; i < arrays1.length; i++) {
             merge[i] = arrays1[i];
         }
         for (int i = 0; i < arrays2.length; i++) {
