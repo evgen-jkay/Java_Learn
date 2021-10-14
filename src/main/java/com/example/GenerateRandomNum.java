@@ -7,6 +7,7 @@ public class GenerateRandomNum {
         int counter;
 
         Random rNum = new Random();
+
         /**
          * Below code would generate 10 random numbers
          * between 0 and 100
