@@ -1,4 +1,4 @@
-package com.example;
+package com.example.arrays;
 
 import java.util.Arrays;
 
@@ -12,6 +12,7 @@ public class SortArrays {
             System.out.println(elem);
         }
 
+        // Call Arrays.sort on the int array
         Arrays.sort(array);
         System.out.println("Array Elements after sort");
         for (int elem : array) {
