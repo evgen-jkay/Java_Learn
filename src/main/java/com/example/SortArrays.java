@@ -8,13 +8,13 @@ public class SortArrays {
 
         System.out.println("Array Elements before sort");
 
-        for(int elem : array) {
+        for (int elem : array) {
             System.out.println(elem);
         }
 
         Arrays.sort(array);
         System.out.println("Array Elements after sort");
-        for(int elem : array) {
+        for (int elem : array) {
             System.out.println(elem);
         }
     }
