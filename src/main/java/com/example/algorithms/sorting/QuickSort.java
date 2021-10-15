@@ -3,7 +3,7 @@ package com.examlple.algorithm.sorting;
 import java.util.*;
 
 /**
- * Алгоритм быстрой сортировки
+ * Algorithm Quick Sort
  */
 public class QuickSort {
      void doSort(int[] items, int fst, int lst) {
