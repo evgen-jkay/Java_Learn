@@ -1,4 +1,4 @@
-package com.myApp;
+package com.myApp.salary;
 
 public class SalaryDay implements Salary {
 
