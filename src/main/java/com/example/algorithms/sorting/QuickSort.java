@@ -7,11 +7,10 @@ import java.util.*;
  */
 public class QuickSort {
      void doSort(int[] items, int fst, int lst) {
-        if (fst >= lst)
-        return;
+        if (fst >= lst) return;
         int i = fst;
         int j = lst;
-        int x = items[(fst + lst)/2];
+        int x = items[(fst + lst) / 2];
 
         while (i < j) {
             while (items[i] < x) i++;
@@ -23,12 +22,12 @@ public class QuickSort {
                 i++;
                 j--;
             }
-       }
-       doSort(items, fst, j);
-       doSort(items, i, lst);
+        }
+        doSort(items, fst, j);
+        doSort(items, i, lst);
     }
 
-    int[] sort(int[] arr)
+    public int[] sort(int[] arr)
     {
         int len = arr.length;
         int[] items = Arrays.copyOf(arr, len);

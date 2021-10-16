@@ -1,7 +1,6 @@
 package com.myApp.salary;
 
 public class SalaryDay implements Salary {
-
     private final double priceHours;
     private final double priceTon;
     private final double workingHours;

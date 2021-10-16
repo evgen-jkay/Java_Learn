@@ -17,7 +17,7 @@ public class Smoked {
        
        double priceCigarette = packPrice / 20;
        double smokedDay = cigarettesDay * priceCigarette;
-       double smokedMouth = smokedDay * (365 / 12);
+       double smokedMouth = smokedDay * 365 / 12;
        double smokedYear = smokedDay * 365;
        
        System.out.println("И так...");
