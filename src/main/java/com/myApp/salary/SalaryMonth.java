@@ -6,7 +6,7 @@ public class SalaryMonth implements Salary {
     private final double prepayment;
 
     private final double[] workingHours = {6, 7, 4, 9};
-    private final double[] manufacturedTons = {20.2, 18.5, 21.8, 12.8, 23.4};
+    private final double[] manufacturedTons = {20.2, 18.5, 21.8, 12.8, 23.4, 23.4};
 
     private double allWorkingHours;
     private double allManufacturedTons;
@@ -14,7 +14,7 @@ public class SalaryMonth implements Salary {
     public SalaryMonth() {
         this.priceHours = 62.5;
         this.priceTon = 75;
-        this.prepayment = 0;
+        this.prepayment = 2455;
     }
 
     protected double getPriceHours() {
@@ -66,6 +66,11 @@ public class SalaryMonth implements Salary {
         System.out.println("Аванс: " + getPrepayment() + " грн.");
         System.out.println("Зарплата: " + allSalary() + " грн.");
         System.out.println("Зарплата с вычетом аванса: " + (allSalary() - getPrepayment()) + " грн.");
+    }
+
+    public static void main(String[] args) {
+        SalaryMonth salaryMonth = new SalaryMonth();
+        salaryMonth.salaryInfo();
     }
 
 }

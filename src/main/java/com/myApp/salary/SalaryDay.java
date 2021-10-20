@@ -61,4 +61,9 @@ public class SalaryDay implements Salary {
         System.out.println("Заработанно: " + allSalary() + " грн.");
     }
 
+    public static void main(String[] args) {
+        SalaryDay salaryDay = new SalaryDay();
+        salaryDay.salaryInfo();
+    }
+
 }
