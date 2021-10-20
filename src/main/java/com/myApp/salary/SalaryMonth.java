@@ -67,5 +67,5 @@ public class SalaryMonth implements Salary {
         System.out.println("Зарплата: " + allSalary() + " грн.");
         System.out.println("Зарплата с вычетом аванса: " + (allSalary() - getPrepayment()) + " грн.");
     }
-}
 
+}
