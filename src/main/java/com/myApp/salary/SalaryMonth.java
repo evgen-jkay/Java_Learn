@@ -6,7 +6,7 @@ public class SalaryMonth implements Salary {
     private final double prepayment;
 
     private final double[] workingHours = {6, 7, 4, 9};
-    private final double[] manufacturedTons = {20.2, 18.5, 21.8, 12.8, 23.4, 23.4};
+    private final double[] manufacturedTons = {20.2, 18.5, 21.8, 12.8, 23.4, 23.4, 20.4, 29.1};
 
     private double allWorkingHours;
     private double allManufacturedTons;
