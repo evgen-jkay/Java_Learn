@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.exercises.сhapter1;
+package com.books.HeadFirstJava.exercises.сhapter01;
 
 public class ExerciselbB {
     public static void main(String[] args) {

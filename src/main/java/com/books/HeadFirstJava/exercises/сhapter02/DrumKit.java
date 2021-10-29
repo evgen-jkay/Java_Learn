@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.exercises.сhapter2;
+package com.books.HeadFirstJava.exercises.сhapter02;
 
 class DrumKit {
 

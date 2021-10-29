@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.exercises.сhapter3;
+package com.books.HeadFirstJava.exercises.сhapter03;
 
 public class Hobbits {
     String name;

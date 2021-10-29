@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.exercises.сhapter4;
+package com.books.HeadFirstJava.exercises.сhapter04;
 
 class XCopy {
     public static void main(String[] args) {
