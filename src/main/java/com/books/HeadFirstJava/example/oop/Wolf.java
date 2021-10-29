@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.example;
+package com.books.HeadFirstJava.example.oop;
 
 public class Wolf extends Canine {
     public Wolf(String theName) {

@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.example;
+package com.books.HeadFirstJava.example.oop;
 
 public class Duck extends Animal {
     int size;

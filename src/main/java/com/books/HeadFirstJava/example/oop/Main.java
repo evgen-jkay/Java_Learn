@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.example;
+package com.books.HeadFirstJava.example.oop;
 
 public class Main extends Cat {
     public static void main(String[] args) {

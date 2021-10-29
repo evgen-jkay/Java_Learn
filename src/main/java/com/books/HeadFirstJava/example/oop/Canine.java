@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.example;
+package com.books.HeadFirstJava.example.oop;
 
 abstract class Canine extends Animal {
 

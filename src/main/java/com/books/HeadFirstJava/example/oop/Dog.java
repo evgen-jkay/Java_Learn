@@ -1,4 +1,4 @@
-package com.books.HeadFirstJava.example;
+package com.books.HeadFirstJava.example.oop;
 
 public class Dog extends Canine implements Pet {
     public Dog(String theName) {
