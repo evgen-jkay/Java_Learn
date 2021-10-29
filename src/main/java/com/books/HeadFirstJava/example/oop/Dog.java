@@ -1,6 +1,6 @@
 package com.books.HeadFirstJava.example.oop;
 
-public class Dog extends Canine implements Pet {
+public class Dog extends Canine implements Pet, Pet2 {
     public Dog(String theName) {
         super(theName);
     }
@@ -23,5 +23,10 @@ public class Dog extends Canine implements Pet {
     @Override
     public void eat() {
         super.eat();
+    }
+
+    @Override
+    public void pet2() {
+
     }
 }
