@@ -1,16 +1,28 @@
 package com.books.HeadFirstJava.example;
 
-public class Animal {
+public abstract class Animal {
+    private String name;
+
+    public Animal() {  }
+
+    public Animal(String theName) {
+        name = theName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public void makeNoise() {
         System.out.println("makeNoise");
     }
 
     public void eat() {
-        System.out.println("eat");
+        System.out.println("EAT!");
     }
 
     public void sleep() {
-        System.out.println("sleep" + getClass().getName());
+        System.out.println("sleep");
     }
 
     public void roam() {

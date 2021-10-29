@@ -1,0 +1,27 @@
+package com.books.HeadFirstJava.example;
+
+public class Dog extends Canine implements Pet {
+    public Dog(String theName) {
+        super(theName);
+    }
+
+    @Override
+    public void beFriendly() {
+
+    }
+
+    @Override
+    public void play() {
+
+    }
+
+    @Override
+    public void roam() {
+        super.roam();
+    }
+
+    @Override
+    public void eat() {
+        super.eat();
+    }
+}

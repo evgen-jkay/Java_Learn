@@ -1,6 +1,10 @@
 package com.books.HeadFirstJava.example;
 
-public class Wolf extends Canine{
+public class Wolf extends Canine {
+    public Wolf(String theName) {
+        super(theName);
+    }
+
     @Override
     public void makeNoise() {
         super.makeNoise();
@@ -8,6 +12,7 @@ public class Wolf extends Canine{
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("eat Wolf");
     }
+
 }
