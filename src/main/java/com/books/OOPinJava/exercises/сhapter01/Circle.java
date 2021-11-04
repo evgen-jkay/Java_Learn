@@ -1,4 +1,4 @@
-package com.books.OOPinJava;
+package com.books.OOPinJava.exercises.сhapter01;
 
 public class Circle {
 
@@ -32,4 +32,7 @@ public class Circle {
         return radius * radius * Math.PI;
     }
 
+    public String toString() {
+        return "Круг радиуса = " + radius + " и цвета " + color;
+    }
 }
