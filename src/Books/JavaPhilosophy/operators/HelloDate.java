@@ -1,4 +1,4 @@
-package Books.JavaPhilosophy;
+package Books.JavaPhilosophy.operators;
 
 import java.util.Date;
 
