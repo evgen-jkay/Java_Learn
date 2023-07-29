@@ -1,4 +1,4 @@
-package Books.JavaPhilosophy.operators;
+package Books.JavaPhilosophy;
 
 import java.util.Date;
 
@@ -10,7 +10,6 @@ import java.util.Date;
 public class HelloDate {
     /**
      * @param args массив строкових аргументів
-     * @throws exceptions виключень не видає
      */
     public static void main(String[] args) {
         System.out.println("Привіт, сьогодні: ");
