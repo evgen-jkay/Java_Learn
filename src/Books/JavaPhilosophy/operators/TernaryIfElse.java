@@ -1,7 +1,6 @@
 package Books.JavaPhilosophy.operators;
 
 public class TernaryIfElse {
-
     static int ternary(int i) {
         return i < 10 ? i * 100 : i * 10;
     }
