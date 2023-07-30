@@ -1,6 +1,6 @@
 package Books.JavaPhilosophy.exercises._2_chapter;
 
-public class Exercisses {
+public class Exercises {
     int i;
     char c;
 
