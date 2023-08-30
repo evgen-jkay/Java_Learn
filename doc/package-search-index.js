@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"Books.JavaPhilosophy"},{"l":"Books.JavaPhilosophy.control"},{"l":"Books.JavaPhilosophy.exercises._2_chapter"},{"l":"Books.JavaPhilosophy.object"},{"l":"Books.JavaPhilosophy.operators"},{"l":"LeetCode.easy.twoSum"},{"l":"LeetCode.medium.asteroidCollision"},{"l":"LeetCode.medium.numberOfLIS"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"Books.BasicsOfJava"}];updateSearchResults();
